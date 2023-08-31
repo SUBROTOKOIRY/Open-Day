@@ -95,7 +95,7 @@ surprize_btn.onclick=()=>{
   if(id==n)
  { id=n+1;
   n=id;}
-  img.src="/javascript-basic-projects-master/03-reviews/setup/images/img-"+id+".jpg";
+  img.src="./images/img-"+id+".jpg";
   title2.innerText=reviews[id].title;
   info.innerText=reviews[id].question;
   answer_btn.classList.remove('answer-btn2');
